@@ -1,9 +1,15 @@
-let sales = 123_456_789;
-let course = "Typescript";
-let is_published = true;
+// enum
 
-let level;
+const small = 1;
+const medium = 2;
+const large = 3;
 
-function render(document) {
-  console.log(document);
+//PascalCasing
+const enum Size {
+  Small = 1,
+  Medium,
+  Large,
 }
+
+let mySize: Size = Size.Medium;
+console.log(mySize);
