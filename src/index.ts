@@ -1,5 +1,12 @@
 let employee: {
-  id: number;
+  readonly id: number;
   name: string;
-} = { id: 1 };
-employee.name = "Donib";
+  retire: (date: Date) => void;
+} = {
+  id: 1,
+  name: "Donib",
+  retire: (date: Date) => {
+    console.log(date);
+  },
+};
+employee.name = "Binod";
