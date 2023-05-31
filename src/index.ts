@@ -1,3 +1,5 @@
-let numbers: number[] = [];
+//tuple
 
-numbers.forEach((n) => n.toExponential);
+let user: [number, string] = [1, "Donib"];
+console.log(user[1].length);
+user.push(1);

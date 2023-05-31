@@ -1,6 +1,5 @@
 "use strict";
-console.log("HEY FOLKS!");
-let age = 20;
-if (age < 50)
-    age += 10;
+let user = [1, "Donib"];
+console.log(user[1].length);
+user.push(1);
 //# sourceMappingURL=index.js.map
