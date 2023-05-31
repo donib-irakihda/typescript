@@ -1,5 +1,15 @@
-//tuple
+// enum
 
-let user: [number, string] = [1, "Donib"];
-console.log(user[1].length);
-user.push(1);
+const small = 1;
+const medium = 2;
+const large = 3;
+
+//PascalCasing
+const enum Size {
+  Small = 1,
+  Medium,
+  Large,
+}
+
+let mySize: Size = Size.Medium;
+console.log(mySize);
