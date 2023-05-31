@@ -1,7 +1,7 @@
 "use strict";
-const small = 1;
-const medium = 2;
-const large = 3;
-let mySize = 2;
-console.log(mySize);
+function calcucateTax(income, taxYear = 2022) {
+  if (taxYear > 2022) return income * 1.2;
+  return income * 1.3;
+}
+calcucateTax(10000, 2023);
 //# sourceMappingURL=index.js.map
